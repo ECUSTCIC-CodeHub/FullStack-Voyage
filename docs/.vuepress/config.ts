@@ -29,16 +29,16 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://ecustcic-codehub.github.io/FullStack-Voyage/',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'https://github.com/ECUSTCIC-CodeHub/FullStack-Voyage',
+    docsDir: 'docs',
+    docsBranch: 'main',
 
     /* 页内信息 */
     editLink: true,
-    lastUpdated: true,
+    // lastUpdated: true,
     contributors: true,
     changelog: false,
 
@@ -127,7 +127,7 @@ export default defineUserConfig({
         mark: true,       // 启用图片标记
         size: true,       // 启用图片大小
       },
-      include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
+      // include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
       imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
     },
 

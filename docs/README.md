@@ -12,10 +12,10 @@ config:
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 让我们开始吧 →
+          link: /demo/1.md
         -
           theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/ECUSTCIC-CodeHub/FullStack-Voyage
 ---
