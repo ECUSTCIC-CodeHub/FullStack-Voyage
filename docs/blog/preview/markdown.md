@@ -6,25 +6,25 @@ createTime: 2025/11/12 17:43:17
 permalink: /blog/bqhz7g0s/
 ---
 
-## 标题H2
+## 标题 H2
 
-### 标题H3
+### 标题 H3
 
-#### 标题H4
+#### 标题 H4
 
-##### 标题H5
+##### 标题 H5
 
-###### 标题H6
+###### 标题 H6
 
-## 标题2 Badge <Badge type="tip" text="Badge" />
+## 标题 2 Badge <Badge type="tip" text="Badge" />
 
-### 标题3 Badge <Badge type="warning" text="Badge" />
+### 标题 3 Badge <Badge type="warning" text="Badge" />
 
-#### 标题4 Badge <Badge type="danger" text="Badge" />
+#### 标题 4 Badge <Badge type="danger" text="Badge" />
 
 正文内容。
 
-`@property` CSS at-rule是 [CSS Houdini API](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Houdini)
+`@property` CSS at-rule 是 [CSS Houdini API](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Houdini)
 的一部分，它允许开发者显式地定义他们的 [CSS 自定义属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/--*),
 允许进行属性类型检查、设定默认值以及定义该自定义属性是否可以被继承。
 
@@ -55,18 +55,18 @@ H~2~O
 内容右对齐
 :::
 
-- 无序列表1
-- 无序列表2
-- 无序列表3
+- 无序列表 1
+- 无序列表 2
+- 无序列表 3
 
-1. 有序列表1
-2. 有序列表2
-3. 有序列表3
+1. 有序列表 1
+2. 有序列表 2
+3. 有序列表 3
 
-- [ ] 任务列表1
-- [ ] 任务列表2
-- [x] 任务列表3
-- [x] 任务列表4
+- [ ] 任务列表 1
+- [ ] 任务列表 2
+- [x] 任务列表 3
+- [x] 任务列表 4
 
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
@@ -185,7 +185,6 @@ todo.title = 'Hello'
 Number.parseInt('123', 10)
 //      ^|
 
-//
 //
 ```
 
@@ -376,32 +375,32 @@ app.appendChild(window.document.createElement('small')).textContent = a
 **选项卡：**
 
 ::: tabs
-@tab 标题1
+@tab 标题 1
 内容区块
 
-@tab 标题2
+@tab 标题 2
 内容区块
 :::
 
 :::: warning
 ::: tabs
-@tab 标题1
+@tab 标题 1
 内容区块
 
-@tab 标题2
+@tab 标题 2
 内容区块
 :::
 ::::
 
 **脚注：**
 
-脚注 1 链接[^first]。
+脚注 1 链接 [^first]。
 
-脚注 2 链接[^second]。
+脚注 2 链接 [^second]。
 
 行内的脚注^[行内脚注文本] 定义。
 
-重复的页脚定义[^second]。
+重复的页脚定义 [^second]。
 
 [^first]: 脚注 **可以包含特殊标记**
 
