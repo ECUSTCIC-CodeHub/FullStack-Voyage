@@ -14,6 +14,8 @@ main:
             password: ${GITHUB_ACCESS_TOKEN}
             force: true
     - name: edgeone
+      runner:
+        cpus: 2
       imports: https://cnb.cool/ecustcic/key/-/blob/main/env.yml
       stages:
         # 构建当前项目
